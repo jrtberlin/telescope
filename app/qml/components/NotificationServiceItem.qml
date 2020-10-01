@@ -14,7 +14,8 @@ Item {
             notificationModel.append({"text": i18n.tr("None"), "value": "None"})
             notificationModel.append({"text": i18n.tr("Normal"), "value": "Normal"})
             notificationModel.append({"text": i18n.tr("Strong"), "value": "Strong"})
-        }
+            notificationModel.append({"text": i18n.tr("Ringtone Pattern"), "value": "Ringtone"})
+	}
     }
 
     ExpandableListItem {
